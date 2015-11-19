@@ -1,2 +1,24 @@
-<h1>Welcome to Blocmarks!</h1>
-<p>You have found your way to the home page of Blocmarks.</p>
+<br>
+<div class="jumbotron">
+  <h1>Blocmarks</h1>
+  <p>You have found your way to the home page of Blocmarks.</p>
+  <p>
+      <%= link_to "Sign In", new_user_session_path, class: 'btn btn-primary' %> or
+      <%= link_to "Sign Up", new_user_registration_path, class: 'btn btn-primary' %> to start sharing links today!
+  </p>
+</div>
+
+<div class="row">
+  <div class="col-md-4">
+    <h2>No local friends?</h2>
+    <p>Share your favorite links with your online buddies all over the world and take a look at theirs!</p>
+  </div>
+  <div class="col-md-4">
+    <h2>Access anywhere</h2>
+    <p>Blocmarks allows you to access your bookmarked links anywhere and at any time - you just need internet access. </p>
+  </div>
+  <div class="col-md-4">
+    <h2>Easy maintenance</h2>
+    <p>You can email, manage, and share your bookmarked links as you see fit. Easy peezy.</p>
+  </div>
+</div>

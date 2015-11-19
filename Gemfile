@@ -30,6 +30,12 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+# Used for user auth / sign up / sign in
+gem 'devise'
+
+# Allows for storage and access sensitive credentials using variables
+gem 'figaro'
+
 group :production do
   # Use PostgreSQL for Heroku deployment
   gem 'pg'
